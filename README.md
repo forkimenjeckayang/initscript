@@ -8,7 +8,7 @@ Now that it's executable, yu can now run it by using "./initscript.sh" form the 
  2. Run the command: mkdir ~/bin
  3. Add 'bin' directory to your PATH:
   - Open your shell profile file (e.g., ~/.bashrc or ~/.bash_profile) in a text editor.
-   - Add the following line at the end of the file: export PATH=~/bin:$PATH
+   - Add the following line at the end of the file: export PATH="~/bin:$PATH"
    - Move this script to the 'bin' directory:
    - Run the command: mv initscript.sh ~/bin.
 Make the script executable: Skip if you already made it executable in the diectory where you downloaded the script to
