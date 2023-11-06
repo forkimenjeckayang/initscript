@@ -1,5 +1,5 @@
 Documentation
-
+The script helps a user to automate the creating of a bash script file or a python script file
 Once you have this script on your system, you will need to make it executable by using the command "chmod +x initscript.sh"
 
 Now that it's executable, yu can now run it by using "./initscript.sh" form the directory where the script is found but to make the script accessibl from any where in your system you will need to follow the steps bellow
