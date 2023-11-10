@@ -1,22 +1,29 @@
-Documentation
-The script helps a user to automate the creating of a bash script file or a python script file
-Once you have this script on your system, you will need to make it executable by using the command "chmod +x initscript.sh"
+**Documentation**
 
-Now that it's executable, yu can now run it by using "./initscript.sh" form the directory where the script is found but to make the script accessibl from any where in your system you will need to follow the steps bellow
+This script helps automate the creation of both Bash and Python script files, making it easier to start new projects. To get started, follow these steps:
 
- 1.Create a directory called 'bin' in your home directory (if not already present) 
- 2. Run the command: mkdir ~/bin
- 3. Add 'bin' directory to your PATH:
-  - Open your shell profile file (e.g., ~/.bashrc or ~/.bash_profile) in a text editor.
-   - Add the following line at the end of the file: export PATH="~/bin:$PATH"
-   - Move this script to the 'bin' directory:
-   - Run the command: mv initscript.sh ~/bin.
-Make the script executable: Skip if you already made it executable in the diectory where you downloaded the script to
-Reload your shell profile using the command : source ~/.bashrc (or ~/.bash_profile)
-After completing these steps, you should be able to run this script from anywhere by simply typing its name.
+1. **Make the Script Executable:** After downloading the script, ensure it's executable by running the command: `chmod +x initscript.sh`
 
+2. **Run the Script:** You can now execute the script by running `./initscript.sh` from the directory where the script is located.
 
-For thr Python and Bash SCript Options
-A README.md file will be automatically created in the directory name you specified on how to run the go about making it work.
+3. **Make the Script Accessible Everywhere:** If you want to run the script from any location on your system, you'll need to follow these steps:
 
-THANK YOU
+   a. **Create a 'bin' Directory:** If it doesn't already exist, create a directory called 'bin' in your home directory.
+      - Run the command: `mkdir ~/bin`
+
+   b. **Add 'bin' Directory to Your PATH:** This ensures that your shell knows where to find the script. Open your shell profile file (e.g., `~/.bashrc` or `~/.bash_profile`) in a text editor, and add the following line to the end of the file:
+      - `export PATH="~/bin:$PATH"`
+
+   c. **Move the Script:** Place the script in the 'bin' directory by running the command: `mv initscript.sh ~/bin`
+
+   d. **Make the Script Executable:** Skip this step if you've already made the script executable in the directory where you initially downloaded it.
+
+   e. **Reload Your Shell Profile:** Use the command: `source ~/.bashrc` (or `~/.bash_profile`) to apply the changes.
+
+After completing these steps, you'll be able to run this script from anywhere on your system by simply typing its name.
+
+**For Python and Bash Script Options:**
+
+When you create a new Python or Bash project using this script, a `README.md` file will be automatically generated in the specified directory. This file provides guidance on how to run your project.
+
+Thank you for using this script!
